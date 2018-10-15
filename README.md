@@ -95,15 +95,23 @@ tests.
 
 ## Usage
 
+### Run through NPM
+
 - `npm i --save-dev @chrisb-dev/auto-gen-store-component-unit-tests`
 
 - Add a script to package.json to run script: `"auto-gen-organism-unit-tests": "ts-node  node_modules/@chrisb-dev/auto-gen-store-component-unit-tests/index.ts"`
 
-- Run the script with a component connected to the store: `npm run auto-gen-organism-unit-tests ./src/organisms/basket/basket.component.ts`
+- Run the script with a component connected to the store: `npm run auto-gen-organism-unit-tests ./src/organisms/my-component/my-component.component.ts`
 
-- Alternatively, after installing, the script can just be run from the npm packages: `ts-node node_modules/@chrisb-dev/auto-gen-store-component-unit-tests/index.ts ./src/organisms/basket/basket.component.ts`
+### Install with NPM and run directly
 
-- In either case replace `./src/organisms/basket/basket.component.ts` with the path to the component you want to generate the data for.
+- Alternatively, after installing, the script can just be run from the npm packages: `ts-node node_modules/@chrisb-dev/auto-gen-store-component-unit-tests/index.ts ./src/organisms/my-component/my-component.component.ts`
+
+### Install globally
+
+- Install globally: `npm i -g @chrisb-dev/auto-gen-store-component-unit-tests`
+
+- Run from the global node directory: `ts-node /usr/local/lib/node_modules/@chrisb-dev/auto-gen-store-component-unit-tests ./src/organisms/my-component/my-component.component.ts`
 
 ## Development
 
