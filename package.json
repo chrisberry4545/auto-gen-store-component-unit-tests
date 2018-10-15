@@ -1,0 +1,18 @@
+{
+  "name": "@chrisb-dev/auto-gen-store-component-unit-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Berry <chrisberry4545@googlemail.com> (http://chrisbdev.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.11.7",
+    "typescript": "^3.1.3"
+  },
+  "dependencies": {
+    "ts-node": "^7.0.1"
+  }
+}
